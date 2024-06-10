@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        
+        function myMessage(){
+              alert("I am JavaScript Message Function")
+             window.document.bgColor="red";
+       }
+       function Validation(){
+ var uname=document.myform.username.value;
+ var pswrd=document.myform.password.value;
+if(uname == null || uname == ""){
+alert("Name can't be blank")
+return false;
+}
+else if(pswrd.length<6){
+alert("password  Must be 6 characters")
+return false;
+}
+return true;
+}
+  </script>
+  
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+</head>
+<style>
+      .video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.video-container video {
+  min-width: 10%;
+  min-height: 10%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+   
+       
+           
+    
+    div{
+            
+            padding-top: 50px;
+            padding-right: 50px;
+            padding-bottom:  50px;
+            padding-left:  80px;
+          }
+</style>
+
+<body onload="myMessage()">
+   
+    
+   
+         
+    <div>
+        <center>
+            <tr><br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <td><b>Login</b></td><br><br>
+                <tr>
+        <form name="myform" action="c:\Users\sreek\OneDrive\Desktop\html\login sucess.html" onsubmit="return Validation(this)">
+            username: <input type="text" name = "username" placeholder="enter uname"><br><br>
+            password: <input type="password" name="password" placeholder="enter pwrd"><br><br> 
+            <input type="submit" value = "submit">
+            </center>
+<form>
+<table align="center" cellspacing="15px">
+
+<td colspan="2" align="center">
+
+</td>
+</tr>
+<div class="video-container">
+    <video autoplay loop muted>
+      
+          <source src="C:\Users\sreek\Downloads\mixkit-man-working-on-his-laptop-308-full-hd.mp4" width="100%">
+           </video>">
+       </video>
+</div>
+</div>
+</table>
+</form>
+</body>
+</html>
